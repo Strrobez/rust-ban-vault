@@ -30,6 +30,18 @@ yarn
 
 Ensure you have a `config.json` file in the root directory with your **MySQL** database configuration:
 
+```json
+{
+    "mysql": {
+        "host": "your-hostname",
+        "user": "your-username",
+        "password": "your-password",
+        "database": "your-database-name",
+        "debug": true // Optional: Set to true for debug mode
+    }
+}
+```
+
 ### Usage
 
 To start Rust Ban Vault, run the following command:
