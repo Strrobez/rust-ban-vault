@@ -1,0 +1,17 @@
+{
+  "name": "rust-ban-vault",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Strrobez/rust-ban-vault.git",
+  "author": "Eoin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.17"
+  },
+  "dependencies": {
+    "cardinal": "2.0.0",
+    "consola": "^3.2.3",
+    "mysql2": "^3.9.1",
+    "url-unshort": "^6.1.0"
+  }
+}
